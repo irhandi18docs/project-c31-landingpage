@@ -1,0 +1,24 @@
+@media all and (max-width: 1000px) {
+    .lesson {
+        width: 100%;
+    }
+    .footer {
+        text-align: center;
+        height: 10px;
+        bottom: 0;
+    }
+     
+ }
+ 
+ @media all and (max-width: 670px) {
+     .header-right {
+         display: none;
+     }
+     .menu-icon {
+         display: block;
+     }
+     .footer p {
+         font-size: 12px;
+     } 
+     
+ }

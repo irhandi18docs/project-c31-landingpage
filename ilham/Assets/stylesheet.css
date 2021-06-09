@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: left;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(105, 105, 105, 0.8);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left {
+    float: left;
+}
+.header-left a {
+    margin-top: 20px;
+    float: left;
+    color: white;
+    font-size: 30px;
+}
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+.header-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/white-wall-no-text-zoom-background-design-template-97c17d6215f14409c88b085599f9ac86_screen.jpg?ts=1586909055);
+    background-size: cover;
+    color: rgb(15, 2, 2, 0.9);
+    text-align: center;
+}
+.top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.top-wrapper p {
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+.photo {
+    border-radius: 50%;
+    max-height: 350px;
+    border: 2px solid white;
+}
+.about {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.heading {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color:rgb(15, 2, 2, 0.9);
+    font-size: 20px;
+}
+.txt-about {
+    padding-bottom: 50px;
+}
+.txt-about p {
+    color:rgb(15, 2, 2, 0.9);
+    opacity: 0.9;
+    
+}
+.lesson-wrapper {
+    padding-bottom: 1000px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.lesson {
+    float: left;
+    width: 50%;
+}
+.lesson-img {
+    position: relative;
+    margin-top: 40px;
+    
+}
+.lesson-img img {
+    height: 50%;
+    height: 400px;
+}
+.txt-content {
+    width: 80%;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(15, 2, 2, 0.9);;
+}
+.footer {
+   
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.footer p {
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    /* font-size: 12px; */
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+}
