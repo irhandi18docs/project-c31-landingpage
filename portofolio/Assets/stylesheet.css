@@ -96,7 +96,11 @@ a {
 }
 .lesson {
     float: left;
-    width: 50%;
+    width: 100%;
+}
+.lessonrizky {
+    float: left;
+    width: 100%;
 }
 .lesson-img {
     position: relative;
